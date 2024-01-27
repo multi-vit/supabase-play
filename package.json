@@ -1,0 +1,10 @@
+{
+  "type": "module",
+ "scripts": {
+  "reset-db": "node delete-all-rows.js && node seed-table.js"
+ },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "dotenv": "^16.4.1"
+  }
+}
